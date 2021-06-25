@@ -146,7 +146,6 @@ vAngDeg = [np.float(i) for i in range(-NFFTAnt / 2, NFFTAnt / 2)];
 vAngDeg = np.multiply(np.arcsin(np.divide(vAngDeg, NFFTAnt / 2)), 180.0 / np.pi);
 M = 12;
 az, d31 = synthetic_signal(M);#synthetic signa;
-d31 = real_signal();#real signa;
 AzSearch, Z = music();
 # Range throught FFT
 RP = np.fft.fft(d31 * Win2D, NFFT, 1);
