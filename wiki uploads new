@@ -1,7 +1,10 @@
        Create file wiki-information
        import_issues && import_pull_requests && import_wiki
        import all wiki (lionofjudah595900)
-       pull and compare 
+       add files (wikipedia pdf)
+       compile into database 
+       compare data
+       executepull and compare 
        render image ref: music.py
        create output python-package.yml
        end
